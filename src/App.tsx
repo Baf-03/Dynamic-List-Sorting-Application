@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import ItemList from './components/ItemList';
 import SortControls from './components/SortControls';
 import SearchBar from './components/SearchBar';
