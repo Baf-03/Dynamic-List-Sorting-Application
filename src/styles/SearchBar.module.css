@@ -1,0 +1,33 @@
+.searchBar {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 0 auto 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 1rem;
+    color: #3b3b98;
+    outline: none;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .searchBar::placeholder {
+    color: #888888;
+  }
+  
+  .searchBar:focus {
+    border-color: #3b3b98;
+    box-shadow: 0 4px 10px rgba(59, 59, 152, 0.2);
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .searchBar {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+  
